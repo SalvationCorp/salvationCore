@@ -10,17 +10,17 @@ html {
   background-size: cover;
 }
 
-h1 {
+h2 {
   font-size: 4rem;
-  color: #F05F44;
+  color: rgba(0, 153, 255, 0.767);
   font-weight: bold;
-  -webkit-text-stroke: 1px rgb(241, 227, 227);
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 hr {
   margin: 20px auto;
-  color: #F05F44;
-  border: 3px solid #F05F44;
+  color: rgba(0, 153, 255, 0.596);
+  border: 3px solid rgba(0, 153, 255);
   max-width: 100px;
   opacity: 1;
 }
@@ -38,17 +38,28 @@ hr {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44;
+  background-color: rgba(0, 153, 255, 0.596);
+  border-color: rgba(0, 153, 255);
 }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color: rgba(0, 153, 255, 0.596);
+  border-color: rgb(0, 153, 255);
   border-width: 4px;
 }
 
 .buffer {
   height: 4rem;
 
+}
+
+.fa {
+  
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: rgba(240, 240, 240, 0.596)
 }
